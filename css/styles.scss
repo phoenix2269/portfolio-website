@@ -134,11 +134,12 @@ button:focus,
 
 .navigation-list {
     list-style-type: none;
+    margin-right: 10px;
 }
 
 .navigation-list li {
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 1rem;
 }
 
 .profile__portrait {
@@ -204,6 +205,10 @@ button:focus,
     height: auto;
 }
 
+.contact-form {
+    text-align: center;
+}
+
 @media all and (max-width: 500px) {
     .project-list {
         grid-template-columns: 1fr;
@@ -238,6 +243,7 @@ button:focus,
     }
 }
 
+/*  No longer used  */
 @keyframes color-change {
     from {
         fill: $start-color;
