@@ -182,10 +182,13 @@
     height: auto;
   }
   
+<<<<<<< Updated upstream
   .contact-form {
     text-align: center;
   }
   
+=======
+>>>>>>> Stashed changes
   @media all and (max-width: 500px) {
     .project-list {
       grid-template-columns: 1fr;
@@ -222,7 +225,10 @@
       font-size: 22px;
     }
   }
+<<<<<<< Updated upstream
   /*  No longer used  */
+=======
+>>>>>>> Stashed changes
   @keyframes color-change {
     from {
       fill: #edc655;
