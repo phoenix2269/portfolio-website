@@ -209,6 +209,20 @@ button:focus,
     text-align: center;
 }
 
+.input-wrapper {
+    margin-bottom: 10px;
+}
+  
+label {
+    display: inline-block;
+    min-width: 75px;
+}
+  
+.error-message {
+    color: red;
+    font-size: 0.8em;
+}
+
 @media all and (max-width: 500px) {
     .project-list {
         grid-template-columns: 1fr;
