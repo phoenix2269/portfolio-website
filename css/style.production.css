@@ -72,7 +72,7 @@ input, textarea, select, button {
   font-family: system-ui;
 }
 
-thead {
+thead:td {
   font-size: 18px;
 }
 
