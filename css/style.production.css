@@ -72,6 +72,11 @@ input, textarea, select, button {
   font-family: system-ui;
 }
 
+thead {
+  display: table-header-group;
+  text: 18px;
+}
+
 .button, button {
   /* overwrites browser defaults and resets the border */
   border: none;
@@ -175,6 +180,14 @@ button:focus,
 .about-table {
   margin-left: auto;
   margin-right: auto;
+}
+
+.td-title {
+  text-align: right;
+}
+
+.td-body {
+  text-align: left;
 }
 
 .logo-image {

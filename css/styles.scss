@@ -32,7 +32,6 @@ $transition-color: #fcffad;
 }
 
 header {
-    
     font-weight: 500;
     font-size: 18px;
     /* Sets the font size to 16px */
@@ -93,6 +92,11 @@ a:active {
 
 input, textarea, select, button {
     font-family: system-ui;
+}
+
+thead {
+	display: table-header-group;
+	text: 18px;
 }
 
 .button, button {
@@ -198,6 +202,14 @@ button:focus,
 .about-table {
     margin-left: auto;
     margin-right: auto;
+}
+
+.td-title {
+	text-align: right;
+}
+
+.td-body {
+	text-align: left;
 }
 
 .logo-image {
