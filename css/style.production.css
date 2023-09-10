@@ -46,6 +46,7 @@ footer {
 h1 {
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
 }
 
 h2 {
@@ -195,9 +196,6 @@ button:focus,
 .project-list__item {
   background-color: #D3D3D3;
   padding: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .project-list__item ul li {
@@ -254,7 +252,20 @@ button:focus,
 }
 
 .contact-form {
-  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact-form form {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: left;
+}
+
+.contact-form input, textarea, .error-message {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .input-wrapper {
