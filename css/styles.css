@@ -230,13 +230,14 @@ button:focus,
 }
 
 .contact-form {
+  text-align: center;
   padding: 40px 20px;
 }
 
 .contact-form form {
   margin: 0 auto;
   max-width: 700px;
-  text-align: center;
+  text-align: left;
 }
 
 .contact-form input, textarea, .error-message {
